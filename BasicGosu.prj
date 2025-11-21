@@ -1,0 +1,68 @@
+{
+  "Title": "Gosu Experiment",
+  "Version": 2,
+  "Name": "BasicGosu",
+  "ActiveTab": "src/main/gosu/examples/Hello.gsp",
+  "Tabs": [
+    "src/main/gosu/examples/Hello.gsp"
+  ],
+  "SourcePath": [
+    "src/main/gosu"
+  ],
+  "BackingSource": [
+    "/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/src.zip"
+  ],
+  "RunConfigs": [
+    {
+      "$construct_type": "editor.run.ProgramRunConfig",
+      "_params": {
+        "$construct_type": "editor.run.ProgramRunConfigParameters",
+        "_name": "Hello2",
+        "_fqn": "examples.Hello2",
+        "_vmArgs": null,
+        "_progArgs": null,
+        "_workingDir": null,
+        "_jre": null,
+        "_bJre": 0
+      }
+    },
+    {
+      "$construct_type": "editor.run.ProgramRunConfig",
+      "_params": {
+        "$construct_type": "editor.run.ProgramRunConfigParameters",
+        "_name": "Intervals",
+        "_fqn": "examples.Intervals",
+        "_vmArgs": null,
+        "_progArgs": null,
+        "_workingDir": null,
+        "_jre": null,
+        "_bJre": 0
+      }
+    },
+    {
+      "$construct_type": "editor.run.ProgramRunConfig",
+      "_params": {
+        "$construct_type": "editor.run.ProgramRunConfigParameters",
+        "_name": "Hello",
+        "_fqn": "examples.Hello",
+        "_vmArgs": null,
+        "_progArgs": null,
+        "_workingDir": null,
+        "_jre": null,
+        "_bJre": 0
+      }
+    }
+  ],
+  "MruRunConfig": "Hello2",
+  "Settings": [
+    {
+      "$construct_type": "editor.settings.CompilerSettings",
+      "_params": {
+        "$construct_type": "editor.settings.CompilerSettingsParameters",
+        "_sourceBased": 1,
+        "_ouputPath": "classes"
+      }
+    }
+  ],
+  "MruSettings": null
+}
