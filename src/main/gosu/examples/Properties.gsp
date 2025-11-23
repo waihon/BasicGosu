@@ -22,8 +22,13 @@ class PropertyExample {
     
     _bar = value
   }
+
+  property get BarLength() : int {
+    return _bar.length()
+  }
 }
 
 var ex = new PropertyExample("foo")
 print(ex.Bar)
+print(ex.BarLength)
 ex.Bar = "Foo" // Throws EvaluationException
